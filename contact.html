@@ -26,11 +26,13 @@
     <svg class="hidden">
         <symbol id="icon-menu" viewBox="0 0 119 25">
             <title>menu</title>
-            <path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z" />
+            <path
+                d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z" />
         </symbol>
         <symbol id="icon-close" viewBox="0 0 24 24">
             <title>close</title>
-            <path d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z" />
+            <path
+                d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z" />
         </symbol>
     </svg>
     <main>
@@ -43,7 +45,7 @@
         </div>
         <div class="content">
             <div class="menu-wrapper project-details--banner">
-                <h1>Remote Agent CY<br>NEWS and EVENTS</h1>
+                <h1>Contact Remote Agent CY</h1>
             </div>
         </div>
         <nav class="menu">
@@ -60,16 +62,56 @@
                     <p class="label label--bottomright label--vert">made in bannockburn</p>
                 </div>
             </div>
+            <div class="menu__item menu__item--2" data-direction="lr">
+                <div class="menu__item-inner">
+                    <div class="menu__item-map"></div>
+                    <a href="#" class="menu__item-hoverlink">The location</a>
+                </div>
+            </div>
+            <div class="menu__item menu__item--3" data-direction="bt">
+                <div class="menu__item-inner">
+                    <div class="sidemenu">
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">mission and
+                                vision</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">board of
+                                director</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">management</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">companies</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">our client</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">csr</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">...</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__item menu__item--4" data-direction="rl">
+                <div class="menu__item-inner">
+                    <p class="label label--topleft label--line">Join us now</p>
+                    <a href="#" class="menu__item-link">Learn how to <br> participate</a>
+                </div>
+            </div>
+            <div class="menu__item menu__item--5" data-direction="tb">
+                <div class="menu__item-inner">
+                    <p class="quote">Hail to thee, our infantry, still brave, beyond the grave</p>
+                </div>
+            </div>
+            <button class="action action--menu"><svg class="icon icon--menu">
+                    <use xlink:href="#icon-menu"></use>
+                </svg></button>
+            <button class="action action--close"><svg class="icon icon--close">
+                    <use xlink:href="#icon-close"></use>
+                </svg></button>
         </nav>
     </main>
-    
-    <!-- Google Maps Section -->
-    <section class="map">
-        <div class="container">
-            <h3 class="text-center">Our Location</h3>
-            <div id="map" style="width: 100%; height: 400px;"></div>
-        </div>
-    </section>
+    <content class="project-details">
+        <section class="about-company-section">
+            <div class="container">
+                <h1>ABOUT Remote Agent CY</h1>
+                <p>Ready to book our services or have questions? Contact us to learn more about how we can assist you in your property search. If you're interested in our services in other Cypriot cities, please don't hesitate to reach out and we'll discuss potential options.</p>
+
+            </div>
+        </section>
+
+    </content>
 
     <footer>
         <div class="footer-wrap">
@@ -83,19 +125,35 @@
                     <div class="col-md-4 col-sm-6">
                         <form class="newsletter">
                             <input type="text" placeholder="Email Address">
-                            <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>
+                            <button class="newsletter_submit_btn" type="submit"><i
+                                    class="fa fa-paper-plane"></i></button>
                         </form>
+
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="social_links mt-3">
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                            </ul>
+                        <div class="col-md-12">
+                            <div class="social_links mt-3">
+                                <ul>
+                                    <li class=""><a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                                    </li>
+                                    <li class=""><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+
+                                    </li>
+                                    <li class=""><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+
+                                    </li>
+                                    <li class=""><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+
+                                    </li>
+                                    <li class=""><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+
+                                    </li>
+                                    <li class=""><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,36 +162,55 @@
                 <div class="container company-info_bdr">
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
-                            <div class="footer-logo"><img src="img/logo2.png" alt="logo"></div>
-                            <p>Your one-stop career platform to find Jobs, Internships, Professional Trainings, Projects, and Volunteering Opportunities.</p>
+
+                            <div class="footer-logo"><img src="img/logo2.png" alt="logo">
+                            </div>
+                            <p>Your one-stop career platform to find Jobs, Internships, Professional Trainings,
+                                Projects, and Volunteering Opportunities.</p>
                         </div>
                         <div class="col-md-2 col-sm-6">
-                            <h3>Quick Links</h3>
+                            <h3>Quick LInks</h3>
                             <ul class="footer-links">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Project</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                                <li><a href="#" target="_blank">Privacy Policy</a></li>
-                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Home</a>
+                                </li>
+                                <li><a href="#">About us</a>
+                                </li>
+                                <li><a href="#">Project</a>
+                                </li>
+                                <li><a href="#">Contact Us</a>
+                                </li>
+                                <li><a href="#" target="_blank">Terms &amp; Conditions</a>
+                                </li>
+                                <li><a href="#" target="_blank">Privacy Policy</a>
+                                </li>
+                                <li><a href="#">Sitemap</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h3>OUR SERVICES</h3>
                             <ul class="footer-category">
-                                <li><a href="#">Companies</a></li>
-                                <li><a href="#">Our Client </a></li>
-                                <li><a href="#">Mission and Vision</a></li>
-                                <li><a href="#">Board of Director</a></li>
-                                <li><a href="#">Management Team</a></li>
+                                <li><a href="#">Companies</a>
+                                </li>
+                                <li><a href="#">Our Client </a>
+                                </li>
+                                <li><a href="#">Mission and Vision</a>
+                                </li>
+                                <li><a href="#">Board of Director</a>
+                                </li>
+                                <li><a href="#">Management Team</a>
+                                </li>
                             </ul>
+                            <div class="clearfix"></div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h3>Remote Agent CY Events</h3>
                             <ul class="footer-links">
-                                <li><a href="#">News &amp; Events</a></li>
-                                <li><a href="#">Career</a></li>
+                                <li><a href="#">News &amp; Events</a>
+                                </li>
+
+                                <li><a href="#">Career</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -141,9 +218,11 @@
             </div>
         </div>
         <div class="copyright"> Copyright 2024 | All Rights Reserved by Remote Agent CY</div>
+
     </footer>
 
-    <!-- Scripts -->
+
+
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="assets/font-awesome/fontawesome.min.js"></script>
@@ -156,22 +235,6 @@
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/instagramlite.js"></script>
     <script src="js/plugin.js"></script>
-
-    <!-- Google Maps API Script -->
-    <script>
-        function initMap() {
-            var location = { lat: 35.158477783203125, lng: 33.391082763671875 };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 12,
-                center: location
-            });
-            var marker = new google.maps.Marker({
-                position: location,
-                map: map
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 
 </html>
